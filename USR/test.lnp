@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "stm32f10x.o" "test.o" "delay.o" "sys.o" "usart.o" --strict --scatter "test.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\test.map" -o "test.axf"
