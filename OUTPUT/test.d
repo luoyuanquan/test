@@ -1,0 +1,10 @@
+..\OUTPUT\test.o: ..\USR\test.c
+..\OUTPUT\test.o: ..\SYSTEM\sys\sys.h
+..\OUTPUT\test.o: ..\SYSTEM\sys\stm32f10x_map.h
+..\OUTPUT\test.o: ..\SYSTEM\sys\stm32f10x_conf.h
+..\OUTPUT\test.o: ..\SYSTEM\sys\stm32f10x_type.h
+..\OUTPUT\test.o: ..\SYSTEM\sys\cortexm3_macro.h
+..\OUTPUT\test.o: ..\SYSTEM\sys\stm32f10x_nvic.h
+..\OUTPUT\test.o: ..\SYSTEM\delay\delay.h
+..\OUTPUT\test.o: ..\SYSTEM\usart\usart.h
+..\OUTPUT\test.o: C:\Keil\ARM\RV31\INC\stdio.h
